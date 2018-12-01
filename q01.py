@@ -6,8 +6,6 @@ def part1(inputs):
     
     val = 0
 
-    print(inputs[0])
-
     for input in inputs:
         val += input
         
@@ -19,26 +17,17 @@ def part1(inputs):
 
 def part2(inputs):
 
-    rep = -1
     val = 0
     s = set()
 
-    # print(inputs[0])
     while True:
         for input in inputs:
             val += input
             
             if val in s:
                 return val
-                # rep = val
-                # break
+
             s.add(val)
-            print(val)
-        # print(s)
-
-        
-
-    # return rep
 
 
 
