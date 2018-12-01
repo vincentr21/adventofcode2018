@@ -1,0 +1,7 @@
+# Advent of Code 2018
+
+## Notes
+### Day1
+p1 - basic arithmetic, simple for loop
+p2 - read the question to realize might need to repeat input, simple set in while loop
+
